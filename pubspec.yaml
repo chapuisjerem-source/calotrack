@@ -1,0 +1,47 @@
+name: calotrack
+description: "Suivi calorique simple et efficace avec scan de code-barres."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # State management
+  flutter_riverpod: ^2.5.1
+
+  # Navigation
+  go_router: ^14.2.7
+
+  # Local database
+  drift: ^2.20.2
+  drift_flutter: ^0.2.1
+  path_provider: ^2.1.4
+  path: ^1.9.0
+
+  # Barcode scanning
+  mobile_scanner: ^5.2.3
+
+  # HTTP / API
+  dio: ^5.7.0
+
+  # Charts
+  fl_chart: ^0.69.0
+
+  # Storage / misc
+  shared_preferences: ^2.3.2
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  drift_dev: ^2.20.2
+  build_runner: ^2.4.13
+
+flutter:
+  uses-material-design: true
