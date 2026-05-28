@@ -1,3 +1,9 @@
+# Fichiers sensibles - NE PAS COMMITTER
+android/key.properties
+*.jks
+*.keystore
+push_github.bat
+
 # Miscellaneous
 *.class
 *.log
